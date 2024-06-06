@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $olga = "Olga";
+    $loris = "Loris";
+    $luca = "Luca";
+    return view('index');
 });
