@@ -17,5 +17,11 @@ Route::get('/', function () {
     $olga = "Olga";
     $loris = "Loris";
     $luca = "Luca";
-    return view('index');
+
+    $data = [
+        'olga' => $olga,
+        'loris' => $loris,
+        'luca' => $luca,
+    ];
+    return view('index', $data);
 });

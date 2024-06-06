@@ -7,6 +7,7 @@
     <title>Primi passi laravel</title>
 </head>
 <body>
-    
+    <h1 style="color:blue; text-align: center;"> Hello World!</h1>
+    <h3 style="color:green; text-align: center";> Ciao a {{ $olga }}, {{ $loris }}, e {{ $luca }}</h3>
 </body>
 </html>
